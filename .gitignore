@@ -1,0 +1,27 @@
+# 1. 操作系统生成的隐藏垃圾文件
+.DS_Store
+Thumbs.db
+
+# 2. Python 编译缓存和虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# 3. Jupyter Notebook 缓存 (深度学习常用)
+.ipynb_checkpoints/
+
+# 4. AI 模型权重与大规模数据集 (极度重要！防止 Git 崩溃)
+*.pth
+*.pt
+*.h5
+*.safetensors
+data/
+dataset/
+datasets/
+
+# 5. IDE 配置文件
+.vscode/
+.idea/
